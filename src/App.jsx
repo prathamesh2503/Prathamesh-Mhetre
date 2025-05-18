@@ -11,13 +11,29 @@ import "./styles/index.css";
 function App() {
   return (
     <>
-      <Header />
-      <Hero />
-      <AboutMe />
-      <Skills />
-      <Project />
-      <Contact />
-      <Footer />
+      <header>
+        <section id="home">
+          <Header />
+        </section>
+      </header>
+      <main>
+        <section>
+          <Hero />
+        </section>
+        <section id="about">
+          <AboutMe />
+          <Skills />
+        </section>
+        <section id="projects">
+          <Project />
+        </section>
+        <section id="contact">
+          <Contact />
+        </section>
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }

@@ -13,11 +13,16 @@ const Hero = () => {
             Welcome to my portfolio. I am Prathamesh Mhetre, I am transitioning
             to frontend development
           </p>
-          {/* <p>
-            <a className="btn btn-primary btn-lg" href="#" role="button">
+          <p>
+            <a
+              className="btn btn-primary btn-lg"
+              href="/resume.pdf"
+              role="button"
+              download="My_Resume.pdf"
+            >
               Download Resume
             </a>
-          </p> */}
+          </p>
         </div>
       </div>
     </div>
