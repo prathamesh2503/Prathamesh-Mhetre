@@ -16,9 +16,9 @@ const Hero = () => {
           <p>
             <a
               className="btn btn-primary btn-lg"
-              href="/resume.pdf"
+              href="/Prathamesh_Resume.pdf"
               role="button"
-              download="My_Resume.pdf"
+              download="Prathamesh_Resume.pdf"
             >
               Download Resume
             </a>
