@@ -3,7 +3,7 @@ const AboutMe = () => {
   return (
     <div className="about-me-area">
       <div className="card shadow-lg mb-3 about-me-card">
-        <h1 style={{ margin: "10px" }}>About Me</h1>
+        <h1 style={{ margin: "10px", textAlign: "center" }}>About Me</h1>
         <div className="row g-0">
           <div className="col-md-12">
             <div className="card-body">

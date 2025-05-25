@@ -5,13 +5,13 @@ body{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: rgb(255, 244, 231);
 }
-/* Header Area */
+
 .header-area {
   display: flex;
   justify-content: center;
   height: 60px;
   align-items: center;
-  font-size: 17px;
+  font-size: 16px;
   background-color: rgb(247, 208, 185);
 }
 .nav-link{
@@ -23,9 +23,9 @@ body{
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 100vh;
   padding: 40px 20px;
 }
+
 
 .hero-container{
   display: flex;
@@ -67,21 +67,21 @@ display: block;
 border-radius: 15px;
 }
 
-/* About Me Area */
 
 
 .about-me-area{
-  margin-top: 120px;
+  margin-top: 30px;
   display: flex;
+  flex-direction: column;
+  padding: 40px;
   font-size: 16px;
+  align-items: center;
 }
 
 .about-me-card{
   border: 0px;
-  background-color: rgb(252, 233, 204);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: rgb(247, 208, 185);
+
 }
 
 /* Skills Area */
@@ -155,12 +155,15 @@ border-radius: 15px;
   display: flex;
   justify-content: center;
   width: 100%;
+  height: 90vh;
   padding: 40px 20px;
 }
   .hero-container{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
 }
 .hero-container-child-text h1{
   font-size: 3rem;
@@ -169,10 +172,12 @@ border-radius: 15px;
   font-size: 1.2rem;
 }
 .hero-container-child-text, .hero-container-child-image {
-  width: 80%;
+  width: 100%;
 }
 
 .hero-container-child-image img{
+width: 100%;
+height: auto;
 display: block;
 border-radius: 15px;
 }
