@@ -16,11 +16,6 @@ const AboutMe = () => {
                     requirements, and UI/UX challenges.
                   </div>
                   <div>
-                    Over time, I developed a strong interest in frontend
-                    development and proactively began learning technologies such
-                    as HTML, CSS, JavaScript, and React.
-                  </div>
-                  <div>
                     I am now seeking to transition into a frontend developer
                     role, where I can leverage my support experience and
                     frontend skills to build efficient and user-friendly
