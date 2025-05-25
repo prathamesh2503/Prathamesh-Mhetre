@@ -21,12 +21,6 @@ const AboutMe = () => {
                     as HTML, CSS, JavaScript, and React.
                   </div>
                   <div>
-                    As part of my learning journey, I have built a personal
-                    portfolio project using HTML, CSS, JavaScript, Bootstrap,
-                    and React, with a focus on responsive design and performance
-                    optimization.
-                  </div>
-                  <div>
                     I am now seeking to transition into a frontend developer
                     role, where I can leverage my support experience and
                     frontend skills to build efficient and user-friendly
