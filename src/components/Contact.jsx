@@ -4,6 +4,9 @@ const Contact = () => {
   return (
     <div className="contact-area">
       <h2 style={{ textAlign: "center" }}>Contact Me</h2>
+
+      {/* ------------------------------------------------------------------------------ */}
+
       <div className="contact-area-section" style={{ height: "min-content" }}>
         {/* Left Area */}
         <div className="contact-left-area">

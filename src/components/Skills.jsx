@@ -7,7 +7,7 @@ import { FaGitAlt } from "react-icons/fa";
 const Skills = () => {
   return (
     <div className="skills-area">
-      <h2 style={{ textAlign: "center" }}>Skills</h2>
+      <h2 style={{ textAlign: "center", margin: "20px" }}>Skills</h2>
       <div className="skill-cards-area d-flex gap-3">
         <div className="card skill-card" style={{ width: "10rem" }}>
           <div className="card-body skill-card-body">
