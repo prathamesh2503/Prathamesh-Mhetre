@@ -1,3 +1,6 @@
+html, body {
+  overflow-x: hidden;
+}
 body{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: rgb(255, 244, 231);
@@ -164,13 +167,13 @@ border-radius: 15px;
   height: 100%;
 }
 .hero-container-child-text h1{
-  font-size: 2rem;
+  font-size: 3rem;
 }
 .hero-container-child-text p{
   font-size: 1rem;
 }
 .hero-container-child-text, .hero-container-child-image {
-  width: 50%;
+  width: 100%;
 }
 
 .hero-container-child-image img{
