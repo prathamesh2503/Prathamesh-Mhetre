@@ -1,21 +1,17 @@
+import img1 from "../assets/img1.png";
+
 const Hero = () => {
   return (
     <div className="hero-area">
-      <div className="jumbotron">
-        <div className="hero-container">
-          <h1
-            className="animate__animated animate__flash text-center"
-            style={{ fontSize: "48px" }}
-          >
-            {"<Hello, World!/>"}
-          </h1>
-          <p style={{ fontSize: "24px" }}>
-            Welcome to my portfolio. I am Prathamesh Mhetre, I am transitioning
-            to frontend development
-          </p>
+      <div className="hero-container">
+        {/* hero-text */}
+        <div className="hero-container-child-text">
+          <h1 className="">Hello, World!</h1>
+          <p>I am Prathamesh Mhetre</p>
+          <p className=" text-center">I am Frontend Developer</p>
           <p>
             <a
-              className="btn btn-primary btn-lg"
+              className="btn btn-primary btn-md animate__animated animate__flash animate__slow"
               href="/Prathamesh_Resume.pdf"
               role="button"
               download="Prathamesh_Resume.pdf"
@@ -23,6 +19,11 @@ const Hero = () => {
               Download Resume
             </a>
           </p>
+        </div>
+
+        {/* hero-image */}
+        <div className="hero-container-child-image">
+          <img src={img1} alt="..." />
         </div>
       </div>
     </div>

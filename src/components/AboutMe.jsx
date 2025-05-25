@@ -1,18 +1,9 @@
-import img1 from "../assets/img1.png";
 const AboutMe = () => {
   return (
     <div className="about-me-area">
       <h2>About Me</h2>
       <div className="card shadow-lg mb-3 about-me-card">
         <div className="row g-0">
-          <div className="col-md-4">
-            <img
-              src={img1}
-              className="img-fluid rounded-5"
-              alt="..."
-              style={{ padding: "10px", height: "100%" }}
-            />
-          </div>
           <div className="col-md-8">
             <div className="card-body">
               <p className="card-text ">
