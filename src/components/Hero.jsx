@@ -11,7 +11,7 @@ const Hero = () => {
           <p className=" text-center">I am Frontend Developer</p>
           <p>
             <a
-              className="btn btn-primary btn-md animate__animated animate__flash animate__slow"
+              className="btn btn-primary btn-sm animate__animated animate__flash animate__slow"
               href="/Prathamesh_Resume.pdf"
               role="button"
               download="Prathamesh_Resume.pdf"
