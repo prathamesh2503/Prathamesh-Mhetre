@@ -69,14 +69,10 @@ border-radius: 15px;
 
 /* About Me Area */
 
-#about{
-  margin-top: 50px;
-}
 
 .about-me-area{
-  margin-top: 30px;
+  margin-top: 120px;
   display: flex;
-  padding: 40px;
   font-size: 16px;
 }
 
