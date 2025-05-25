@@ -159,6 +159,7 @@ border-radius: 15px;
   .hero-container{
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   width: 100%;
   height: 100%;
 }
@@ -167,14 +168,9 @@ border-radius: 15px;
 }
 .hero-container-child-text p{
   font-size: 1rem;
-
 }
 .hero-container-child-text, .hero-container-child-image {
   width: 50%;
-}
-
-.hero-container-child-image {
-  height: 80%;
 }
 
 .hero-container-child-image img{
