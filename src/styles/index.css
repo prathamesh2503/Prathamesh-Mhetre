@@ -57,7 +57,7 @@ body{
 }
 
 .hero-container-child-image img{
-width: 70%;
+width: 80%;
 height: auto;
 display: block;
 border-radius: 15px;
@@ -150,8 +150,5 @@ border-radius: 15px;
   .hero-container{
     flex-direction: column;
     text-align: center;
-  }
-  #hero-image{
-    height: 100%;
   }
 }
