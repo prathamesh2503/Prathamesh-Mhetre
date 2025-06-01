@@ -91,58 +91,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className="contact-area-section" style={{ height: "min-content" }}> 
-        {/* Left Area 
-        <div className="contact-left-area">
-          <div className="mb-3">
-            <label htmlFor="formGroupExampleInput" className="form-label">
-              Full Name
-            </label>
-            <input
-              type="text"
-              className="form-control"
-              id="formGroupExampleInput"
-              placeholder="Please enter your fullname"
-            />
-          </div>
-          <div className="mb-3">
-            <label htmlFor="formGroupExampleInput2" className="form-label">
-              Email Id
-            </label>
-            <input
-              type="email"
-              className="form-control"
-              id="formGroupExampleInput2"
-              placeholder="Please enter your email id"
-            />
-          </div>
-          <div className="mb-3">
-            <label htmlFor="message" className="form-label">
-              Your Message
-            </label>
-            <textarea
-              className="form-control"
-              id="message"
-              rows="4"
-              placeholder="Type your message here..."
-            ></textarea>
-          </div>
-
-          <button type="submit" className="btn btn-primary">
-            Send
-          </button>
-        </div>
-
-        {/* Right Area 
-        <div className="contact-right-area">
-          
-          <div className="contact-data d-flex">
-            <div>
-            </div>
-          </div>
-        </div>
-      {/* </div>  */}
     </div>
   );
 };
