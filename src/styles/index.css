@@ -121,6 +121,21 @@ border-radius: 15px;
 }
 
 /* Contact Me Area */
+.contact-area{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-card{
+  width: max-content;
+}
+
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 .contact-mail-id{
   display: flex;
@@ -135,6 +150,21 @@ border-radius: 15px;
   align-items: center;
 }
 
+.contact-form{
+  margin: 10px;
+  width: max-content;
+  /* border: solid black 1px; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-input input{
+  width: max-content;
+  display: block;
+  margin: 0 auto;
+}
 
 .contact-area{
  height: min-content;

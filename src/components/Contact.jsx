@@ -4,10 +4,9 @@ const Contact = () => {
   return (
     <div className="contact-area">
       <h2 style={{ textAlign: "center" }}>Contact Me</h2>
-
       {/* ------------------------------------------------------------------------------ */}
-      <div class="card">
-        <div class="card-body">
+      <div className="card contact-card">
+        <div className="card-body contact-container">
           <div className="contact-mail-id">
             <IoMdMail />
             <a
@@ -41,8 +40,58 @@ const Contact = () => {
               +91 9405798325
             </a>
           </div>
+          <div className="contact-form">
+            <hr />
+            <form
+              action="https://formsubmit.co/prathameshmhetre25@gmail.com"
+              method="post"
+            >
+              <div className="mb-3 contact-input">
+                <label htmlFor="formGroupExampleInput" className="form-label">
+                  Full Name
+                </label>
+                <input
+                  type="text"
+                  name="fullname"
+                  className="form-control"
+                  id="formGroupExampleInput"
+                  placeholder="Please enter your fullname"
+                />
+              </div>
+              <div className="mb-3 contact-input">
+                <label htmlFor="formGroupExampleInput2" className="form-label">
+                  Email Id
+                </label>
+                <input
+                  type="email"
+                  name="email"
+                  className="form-control"
+                  id="formGroupExampleInput2"
+                  placeholder="Please enter your email id"
+                />
+              </div>
+
+              <div className="mb-3 contact-input">
+                <label htmlFor="message" className="form-label">
+                  Your Message
+                </label>
+                <textarea
+                  name="textarea"
+                  className="form-control"
+                  id="message"
+                  rows="4"
+                  placeholder="Type your message here..."
+                ></textarea>
+              </div>
+
+              <button type="submit" className="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
         </div>
       </div>
+
       {/* <div className="contact-area-section" style={{ height: "min-content" }}> 
         {/* Left Area 
         <div className="contact-left-area">
