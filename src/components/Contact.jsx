@@ -8,13 +8,39 @@ const Contact = () => {
       {/* ------------------------------------------------------------------------------ */}
       <div class="card">
         <div class="card-body">
-          <IoMdMail />
-          <a
-            href="mailto:prathameshmhetre25@gmail.com"
-            style={{ textDecoration: "none", color: "black" }}
+          <div className="contact-mail-id">
+            <IoMdMail />
+            <a
+              href="mailto:prathameshmhetre25@gmail.com"
+              style={{
+                textDecoration: "none",
+                color: "black",
+                fontSize: "15px",
+                paddingLeft: "5px",
+              }}
+            >
+              prathameshmhetre25@gmail.com
+            </a>
+          </div>
+          <div
+            className="contact-mobile-no"
+            style={{
+              fontSize: "15px",
+              paddingLeft: "5px",
+            }}
           >
-            prathameshmhetre25@gmail.com
-          </a>
+            <FaMobileAlt />
+            <a
+              href="tel:+919405798325"
+              style={{
+                textDecoration: "none",
+                color: "black",
+                paddingLeft: "5px",
+              }}
+            >
+              +91 9405798325
+            </a>
+          </div>
         </div>
       </div>
       {/* <div className="contact-area-section" style={{ height: "min-content" }}> 
@@ -64,9 +90,7 @@ const Contact = () => {
           
           <div className="contact-data d-flex">
             <div>
-              <FaMobileAlt />
             </div>
-            <p style={{ paddingLeft: "8px" }}>9405798325</p>
           </div>
         </div>
       {/* </div>  */}

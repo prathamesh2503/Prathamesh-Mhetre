@@ -122,6 +122,20 @@ border-radius: 15px;
 
 /* Contact Me Area */
 
+.contact-mail-id{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.contact-mobile-no{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .contact-area{
  height: min-content;
  padding: 40px;
