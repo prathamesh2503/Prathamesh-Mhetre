@@ -1,4 +1,4 @@
-import { MdEmail } from "react-icons/md";
+import { IoMdMail } from "react-icons/io";
 import { FaMobileAlt } from "react-icons/fa";
 const Contact = () => {
   return (
@@ -6,9 +6,19 @@ const Contact = () => {
       <h2 style={{ textAlign: "center" }}>Contact Me</h2>
 
       {/* ------------------------------------------------------------------------------ */}
-
-      <div className="contact-area-section" style={{ height: "min-content" }}>
-        {/* Left Area */}
+      <div class="card">
+        <div class="card-body">
+          <IoMdMail />
+          <a
+            href="mailto:prathameshmhetre25@gmail.com"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            prathameshmhetre25@gmail.com
+          </a>
+        </div>
+      </div>
+      {/* <div className="contact-area-section" style={{ height: "min-content" }}> 
+        {/* Left Area 
         <div className="contact-left-area">
           <div className="mb-3">
             <label htmlFor="formGroupExampleInput" className="form-label">
@@ -49,20 +59,9 @@ const Contact = () => {
           </button>
         </div>
 
-        {/* Right Area */}
+        {/* Right Area 
         <div className="contact-right-area">
-          <div className="contact-data d-flex">
-            <div>
-              <MdEmail />
-            </div>
-            <a
-              href="mailto:prathameshmhetre25@gmail.com"
-              className="text-decoration-none"
-              style={{ paddingLeft: "8px", color: "black" }}
-            >
-              prathameshmhetre25@gmail.com{" "}
-            </a>
-          </div>
+          
           <div className="contact-data d-flex">
             <div>
               <FaMobileAlt />
@@ -70,7 +69,7 @@ const Contact = () => {
             <p style={{ paddingLeft: "8px" }}>9405798325</p>
           </div>
         </div>
-      </div>
+      {/* </div>  */}
     </div>
   );
 };
