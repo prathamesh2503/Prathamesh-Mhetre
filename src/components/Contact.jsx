@@ -56,6 +56,7 @@ const Contact = () => {
                   className="form-control"
                   id="formGroupExampleInput"
                   placeholder="Please enter your fullname"
+                  required
                 />
               </div>
               <div className="mb-3 contact-input">
@@ -68,6 +69,7 @@ const Contact = () => {
                   className="form-control"
                   id="formGroupExampleInput2"
                   placeholder="Please enter your email id"
+                  required
                 />
               </div>
 
@@ -81,6 +83,7 @@ const Contact = () => {
                   id="message"
                   rows="4"
                   placeholder="Type your message here..."
+                  required
                 ></textarea>
               </div>
 
