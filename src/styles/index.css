@@ -211,11 +211,11 @@ body{
   width: 100%;
 } 
 #hero-container-text h1{
-  font-size: 2.3rem;
+  font-size: 2.2rem;
 }
 
 #hero-container-text p{
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 #hero-container-img {
@@ -228,6 +228,7 @@ body{
 
 #hero-container-img img {
   width: 50%;
+  height: auto;
   border-radius: 5%;
 }
 }
