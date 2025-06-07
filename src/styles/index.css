@@ -206,7 +206,7 @@ body{
 }
 
 #hero-container-text{
-  border: 2px solid rgb(205, 238, 19);
+  /* border: 2px solid rgb(205, 238, 19); */
   height: 50%;
   width: 100%;
 } 
@@ -219,7 +219,7 @@ body{
 }
 
 #hero-container-img {
-  border: 2px solid rgb(205, 238, 19);
+  /* border: 2px solid rgb(205, 238, 19); */
   height: 50%;
   width: 100%;
   display: flex;
@@ -227,7 +227,6 @@ body{
 }
 
 #hero-container-img img {
-  height: 100%;
   width: 50%;
   border-radius: 5%;
 }
