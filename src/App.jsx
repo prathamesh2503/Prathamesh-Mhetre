@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "animate.css";
 import "./styles/index.css";
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
     <>
@@ -30,6 +31,7 @@ function App() {
         </section>
       </main>
       <footer>
+        {/* <ScrollToTop /> */}
         <Footer />
       </footer>
     </>
