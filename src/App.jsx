@@ -31,7 +31,7 @@ function App() {
         </section>
       </main>
       <footer>
-        {/* <ScrollToTop /> */}
+        <ScrollToTop />
         <Footer />
       </footer>
     </>
