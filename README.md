@@ -25,10 +25,10 @@ A responsive and modern portfolio website built using **HTML5**, **CSS3**, **Jav
 
 ## 📡 Live Demo
 
-Portfolio Live Link: [https://prathamesh-mhetre.vercel.app/]
+Portfolio Live Link: https://prathamesh-mhetre.vercel.app/
 
 ## 📬 Contact
 
 - ✅ Email: prathameshmhetre25@gmail.com
 - ✅ LinkedIn: linkedin.com/in/prathameshmhetre
-- ✅ GitHub:[https://github.com/prathamesh2503]
+- ✅ GitHub:https://github.com/prathamesh2503
