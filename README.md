@@ -13,23 +13,15 @@ A responsive and modern portfolio website built using **HTML5**, **CSS3**, **Jav
 
 ## 🛠️ Technologies Used
 
-Core Frontend: HTML5, CSS & JavaScript
-Framework: React JS & Bootstrap5
-Tools: Git
-Deployment: GitHub & Vercel
-Others: react-icons & Animate.css
+- ✅ Core Frontend: HTML5, CSS & JavaScript
+- ✅ Framework: React JS & Bootstrap5
+- ✅ Tools: Git
+- ✅ Deployment: GitHub & Vercel
+- ✅ Others: react-icons & Animate.css
 
 ## 📂 Folder Structure
 
-my-portfolio/
-├── src
-├── assets/ # Images, icons
-├── components/ # (For React) Header, Footer, etc.
-├── styles
-├── index.css # Main CSS
-├── app.jsx # JavaScript logic
-├── index.html # Main HTML
-├── README.md
+![alt text](image.png)
 
 ## 📡 Live Demo
 
