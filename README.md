@@ -1,12 +1,42 @@
-# React + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and modern portfolio website built using **HTML5**, **CSS3**, **JavaScript**, **React.js** & **Bootstrap**, to showcase my projects, skills, and resume.
 
-Currently, two official plugins are available:
+## 📌 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Responsive design for mobile, tablet, and desktop
+- ✅ Animated hero section and smooth scrolling
+- ✅ Project showcase cards to add in future with links to live demos and source code
+- ✅ About Me section with skills and education
+- ✅ Downloadable resume
+- ✅ Contact form (FormSubmit)
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Core Frontend: HTML5, CSS & JavaScript
+Framework: React JS & Bootstrap5
+Tools: Git
+Deployment: GitHub & Vercel
+Others: react-icons & Animate.css
+
+## 📂 Folder Structure
+
+my-portfolio/
+├── src
+├── assets/ # Images, icons
+├── components/ # (For React) Header, Footer, etc.
+├── styles
+├── index.css # Main CSS
+├── app.jsx # JavaScript logic
+├── index.html # Main HTML
+├── README.md
+
+## 📡 Live Demo
+
+Portfolio Live Link: [https://prathamesh-mhetre.vercel.app/]
+
+## 📬 Contact
+
+Email: prathameshmhetre25@gmail.com
+LinkedIn: linkedin.com/in/prathameshmhetre
+GitHub:[https://github.com/prathamesh2503]
