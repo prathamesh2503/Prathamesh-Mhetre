@@ -5,11 +5,11 @@ A responsive and modern portfolio website built using **HTML5**, **CSS3**, **Jav
 ## 📌 Features
 
 - ✅ Responsive design for mobile, tablet, and desktop
-- ✅ Animated hero section and smooth scrolling
 - ✅ Project showcase cards to add in future with links to live demos and source code
 - ✅ About Me section with skills and education
 - ✅ Downloadable resume
 - ✅ Contact form (FormSubmit)
+- ✅ Scroll to top button with smooth scrolling
 
 ## 🛠️ Technologies Used
 
