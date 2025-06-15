@@ -29,6 +29,6 @@ Portfolio Live Link: [https://prathamesh-mhetre.vercel.app/]
 
 ## 📬 Contact
 
-Email: prathameshmhetre25@gmail.com
-LinkedIn: linkedin.com/in/prathameshmhetre
-GitHub:[https://github.com/prathamesh2503]
+- ✅ Email: prathameshmhetre25@gmail.com
+- ✅ LinkedIn: linkedin.com/in/prathameshmhetre
+- ✅ GitHub:[https://github.com/prathamesh2503]
