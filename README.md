@@ -5,7 +5,7 @@ A responsive and modern portfolio website built using **HTML5**, **CSS3**, **Jav
 ## 📌 Features
 
 - ✅ Responsive design for mobile, tablet, and desktop
-- ✅ Project showcase cards to add in future with links to live demos and source code
+- ✅ Project showcase cards with links to live demos and source code
 - ✅ About Me section with skills and education
 - ✅ Downloadable resume
 - ✅ Contact form (FormSubmit)
@@ -31,4 +31,4 @@ Portfolio Live Link: https://prathamesh-mhetre.vercel.app/
 
 - ✅ Email: prathameshmhetre25@gmail.com
 - ✅ LinkedIn: linkedin.com/in/prathameshmhetre
-- ✅ GitHub:https://github.com/prathamesh2503
+- ✅ GitHub: https://github.com/prathamesh2503

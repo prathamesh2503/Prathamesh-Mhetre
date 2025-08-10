@@ -1,4 +1,7 @@
 import comingSoon from "../assets/comingSoon.png";
+import utkarshTuition from "../assets/utkarshTuition.png";
+import RedirectToProjectOne from "./RedirectToProjectOne";
+import GithubRepoProjectOne from "./GithubRepoProjectOne";
 const Project = () => {
   return (
     <div className="project-area">
@@ -8,16 +11,20 @@ const Project = () => {
           <div className="col">
             <div className="card h-100">
               <img
-                src={comingSoon}
-                className="card-img-top img-fluid w-50 d-block mx-auto p-3"
+                src={utkarshTuition}
+                className="card-img-top img-fluid w-100 d-block mx-auto p-3"
                 alt="..."
               />
               <div className="card-body text-center">
-                <h5 className="card-title">Project One</h5>
+                <h5 className="card-title">Utkarsh Tuition Version 1</h5>
                 <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-                  quibusdam consequuntur, sunt et qui iusto!
+                  A responsive website developed with html5, css3 & JavaScript
+                  to showcase UI development skills
                 </p>
+                <div className="project-button">
+                  <RedirectToProjectOne />
+                  <GithubRepoProjectOne />
+                </div>
               </div>
             </div>
           </div>
