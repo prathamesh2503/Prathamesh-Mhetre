@@ -1,7 +1,10 @@
 import comingSoon from "../assets/comingSoon.png";
-import utkarshTuition from "../assets/utkarshTuition.png";
+import utkarshTuitionV1 from "../assets/utkarshTuitionV1.png";
+import utkarshTuitionV2 from "../assets/utkarshTuitionV2.png";
 import RedirectToProjectOne from "./RedirectToProjectOne";
 import GithubRepoProjectOne from "./GithubRepoProjectOne";
+import RedirectToProjectTwo from "./RedirectToProjectTwo";
+import GithubRepoProjectTwo from "./GithubRepoProjectTwo";
 const Project = () => {
   return (
     <div className="project-area">
@@ -11,15 +14,15 @@ const Project = () => {
           <div className="col">
             <div className="card h-100">
               <img
-                src={utkarshTuition}
+                src={utkarshTuitionV1}
                 className="card-img-top img-fluid w-100 d-block mx-auto p-3"
                 alt="..."
               />
               <div className="card-body text-center">
                 <h5 className="card-title">Utkarsh Tuition Version 1</h5>
                 <p className="card-text">
-                  A responsive website developed with html5, css3 & JavaScript
-                  to showcase UI development skills
+                  A responsive web application developed with HTML5, CSS3 &
+                  JavaScript to showcase web development skills
                 </p>
                 <div className="project-button">
                   <RedirectToProjectOne />
@@ -31,16 +34,21 @@ const Project = () => {
           <div className="col">
             <div className="card h-100">
               <img
-                src={comingSoon}
-                className="card-img-top img-fluid w-50 d-block mx-auto p-3"
+                src={utkarshTuitionV2}
+                className="card-img-top img-fluid w-100 d-block mx-auto p-3"
                 alt="..."
               />
               <div className="card-body text-center">
-                <h5 className="card-title">Project Two</h5>
+                <h5 className="card-title">Utkarsh Tuition Version 2</h5>
                 <p className="card-text">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Tenetur doloribus quis natus, distinctio rerum corporis!
+                  A responsive web application developed with React JS,
+                  ExpressJs, Supabase & Vercel to showcase web development
+                  skills.
                 </p>
+                <div className="project-button">
+                  <RedirectToProjectTwo />
+                  <GithubRepoProjectTwo />
+                </div>
               </div>
             </div>
           </div>

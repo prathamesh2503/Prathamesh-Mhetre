@@ -7,13 +7,13 @@ const Hero = () => {
       <div id="hero-container-text">
         <h1 className="">Hello, World!</h1>
         <p>I am Prathamesh Mhetre</p>
-        <p>I am Frontend Developer</p>
+        <p>I am Web Developer</p>
         <p>
           <a
             className="btn btn-primary btn-sm animate__animated animate__flash animate__slow"
-            href="/Prathamesh_Resume.pdf"
+            href="/Prathamesh_Mhetre_Resume.pdf"
             role="button"
-            download="Prathamesh_Resume.pdf"
+            download="Prathamesh_Mhetre_Resume.pdf"
           >
             Download Resume
           </a>

@@ -10,16 +10,16 @@ const AboutMe = () => {
               <div className="card-text" style={{ fontSize: "1.2rem" }}>
                 <div>
                   <div>
-                    Hello I am Prathamesh, I have 2 years of experience as an
+                    Hello I am Prathamesh, I have 3+ years of experience as an
                     Implementation & Support Engineer, where I gained a strong
                     understanding of the software development lifecycle, client
-                    requirements, and UI/UX challenges.
+                    requirements, and technical challenges.
                   </div>
                   <div>
-                    I am now seeking to transition into a frontend developer
-                    role, where I can leverage my support experience and
-                    frontend skills to build efficient and user-friendly
-                    interfaces.
+                    I am now seeking a role into a web development technology
+                    where I can leverage my support experience and web
+                    development skills to build efficient and user-friendly web
+                    applications.
                   </div>
                 </div>
               </div>
@@ -112,7 +112,8 @@ const AboutMe = () => {
                       <h3 className="card-title">Highest Qualification</h3>
                       <hr />
                       <h5>
-                        Bachelor of Engineer in Electronics & Telecommunication{" "}
+                        Bachelor of Engineer in Electronics &
+                        Telecommunication{" "}
                       </h5>
                       <h5>
                         Padmabhooshan Vasantdada Patil Institute of Technology,

@@ -4,6 +4,8 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
 const Skills = () => {
   return (
     <div className="skills-area">
@@ -55,6 +57,22 @@ const Skills = () => {
               <FaGitAlt />
             </div>
             <h5 className="card-title">Git</h5>
+          </div>
+        </div>
+        <div className="card skill-card" style={{ width: "10rem" }}>
+          <div className="card-body skill-card-body">
+            <div className="skill-card-icon">
+              <FaNodeJs />
+            </div>
+            <h5 className="card-title">NodeJs</h5>
+          </div>
+        </div>
+        <div className="card skill-card" style={{ width: "10rem" }}>
+          <div className="card-body skill-card-body">
+            <div className="skill-card-icon">
+              <SiExpress />
+            </div>
+            <h5 className="card-title">ExpressJs</h5>
           </div>
         </div>
       </div>
