@@ -6,6 +6,7 @@ import { FaBootstrap } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
+import { RiSupabaseFill } from "react-icons/ri";
 const Skills = () => {
   return (
     <div className="skills-area">
@@ -73,6 +74,14 @@ const Skills = () => {
               <SiExpress />
             </div>
             <h5 className="card-title">ExpressJs</h5>
+          </div>
+        </div>
+        <div className="card skill-card" style={{ width: "10rem" }}>
+          <div className="card-body skill-card-body">
+            <div className="skill-card-icon">
+              <RiSupabaseFill />
+            </div>
+            <h5 className="card-title">Supabase</h5>
           </div>
         </div>
       </div>
