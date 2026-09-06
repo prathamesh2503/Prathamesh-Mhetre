@@ -16,10 +16,10 @@ const AboutMe = () => {
                     requirements, and technical challenges.
                   </div>
                   <div>
-                    I am now seeking a role into a web development technology
-                    where I can leverage my support experience and web
-                    development skills to build efficient and user-friendly web
-                    applications.
+                    I am now seeking a role into a front end development
+                    technology where I can leverage my support experience and
+                    web development skills to build efficient and user-friendly
+                    web applications.
                   </div>
                 </div>
               </div>

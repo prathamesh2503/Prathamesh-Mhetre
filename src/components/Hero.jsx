@@ -7,7 +7,7 @@ const Hero = () => {
       <div id="hero-container-text">
         <h1 className="">Hello, World!</h1>
         <p>I am Prathamesh Mhetre</p>
-        <p>I am Web Developer</p>
+        <p>I am Frontemd Developer</p>
         <p>
           <a
             className="btn btn-primary btn-sm animate__animated animate__flash animate__slow"
