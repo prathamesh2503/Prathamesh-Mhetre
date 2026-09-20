@@ -1,6 +1,9 @@
 const GithubRepoProjectOne = () => {
   const handleGithubBtn = () => {
-    window.open("https://github.com/prathamesh2503/utkarshtuition", "_blank");
+    window.open(
+      "https://github.com/prathamesh2503/utkarshtuition-local",
+      "_blank",
+    );
   };
 
   return <button onClick={handleGithubBtn}>Github Repo</button>;
