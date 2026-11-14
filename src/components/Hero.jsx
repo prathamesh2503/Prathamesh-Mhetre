@@ -3,6 +3,13 @@ import My_Picture_Web from "../assets/My_Picture_Web.webp";
 const Hero = () => {
   return (
     <div className="hero-container">
+      <img
+        id="hero-image"
+        src={My_Picture_Web}
+        alt="My Picture"
+        height="250"
+        width="250"
+      />
       {/* hero-text */}
       <div id="hero-container-text">
         <h1 className="">Hello, World!</h1>
@@ -21,9 +28,6 @@ const Hero = () => {
       </div>
 
       {/* hero-image */}
-      <div id="hero-container-img">
-        <img src={My_Picture_Web} alt="My Picture" />
-      </div>
     </div>
   );
 };

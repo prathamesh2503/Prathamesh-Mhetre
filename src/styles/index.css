@@ -22,10 +22,11 @@ body {
 /* Hero Area */
 
 .hero-container {
-  height: 80vh;
-  width: 100vw;
+  height: 80%;
+  width: 100%;
   display: flex;
-  /* border: 1px solid rgb(238, 19, 19); */
+  align-items: center;
+  justify-content: center;
 }
 
 #hero-container-text {
@@ -45,19 +46,9 @@ body {
   font-size: 1.5rem;
 }
 
-#hero-container-img {
-  /* border: 2px solid rgb(205, 238, 19); */
-  height: 100%;
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#hero-container-img img {
-  height: 80%;
-  width: 80%;
-  border-radius: 5%;
+#hero-image {
+  margin: 10px;
+  border-radius: 20px;
 }
 
 /* About Me */
@@ -185,7 +176,6 @@ body {
   .hero-container {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
   }
 
   #hero-container-text {
@@ -202,16 +192,13 @@ body {
   }
 
   #hero-container-img {
-    /* border: 2px solid rgb(205, 238, 19); */
-    height: 50%;
-    width: 100%;
     display: flex;
     justify-content: center;
   }
 
   #hero-container-img img {
     width: 50%;
-    height: 90%;
+    height: 50%;
     border-radius: 5%;
   }
 }
