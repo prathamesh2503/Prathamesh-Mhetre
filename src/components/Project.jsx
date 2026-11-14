@@ -5,6 +5,7 @@ import RedirectToProjectOne from "./RedirectToProjectOne";
 import GithubRepoProjectOne from "./GithubRepoProjectOne";
 import RedirectToProjectTwo from "./RedirectToProjectTwo";
 import GithubRepoProjectTwo from "./GithubRepoProjectTwo";
+import "bootstrap/dist/css/bootstrap.min.css";
 const Project = () => {
   return (
     <div className="project-area">

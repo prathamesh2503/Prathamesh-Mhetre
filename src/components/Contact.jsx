@@ -1,5 +1,6 @@
 import { IoMdMail } from "react-icons/io";
 import { FaMobileAlt } from "react-icons/fa";
+import "bootstrap/dist/css/bootstrap.min.css";
 const Contact = () => {
   return (
     <div className="contact-area">

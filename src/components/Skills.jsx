@@ -7,6 +7,7 @@ import { FaGitAlt } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { RiSupabaseFill } from "react-icons/ri";
+import "bootstrap/dist/css/bootstrap.min.css";
 const Skills = () => {
   return (
     <div className="skills-area">

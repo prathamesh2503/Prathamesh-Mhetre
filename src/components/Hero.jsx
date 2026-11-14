@@ -1,5 +1,6 @@
 import My_Picture_Web from "../assets/My_Picture_Web.webp";
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import "animate.css";
 const Hero = () => {
   return (
     <div className="hero-container">

@@ -1,4 +1,5 @@
 import Skills from "./Skills";
+import "bootstrap/dist/css/bootstrap.min.css";
 const AboutMe = () => {
   return (
     <div className="about-me-area">
