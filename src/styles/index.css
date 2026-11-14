@@ -148,7 +148,6 @@ body {
 .contact-form {
   margin: 10px;
   width: max-content;
-  /* border: solid black 1px; */
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -164,24 +163,6 @@ body {
 .contact-area {
   height: min-content;
   padding: 40px;
-}
-
-.contact-area-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-}
-
-.contact-left-area {
-  margin: 10px;
-}
-.contact-right-area {
-  margin: 10px;
-}
-.contact-data {
-  font-size: 20px;
 }
 
 .footer-area {
