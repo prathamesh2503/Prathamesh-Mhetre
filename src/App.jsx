@@ -1,11 +1,13 @@
+import { Suspense, lazy } from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import AboutMe from "./components/AboutMe";
 import Project from "./components/Project";
-import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import "./styles/index.css";
 import ScrollToTop from "./components/ScrollToTop";
+
+const Contact = lazy(() => import("./components/Contact"));
 function App() {
   return (
     <>
@@ -25,7 +27,9 @@ function App() {
           <Project />
         </section>
         <section id="contact">
-          <Contact />
+          <Suspense fallback={<div>Loading Contact Form...</div>}>
+            <Contact />
+          </Suspense>
         </section>
       </main>
       <footer>

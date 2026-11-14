@@ -1,5 +1,8 @@
-import Skills from "./Skills";
+import { Suspense, lazy } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+
+const Skills = lazy(() => import("./Skills"));
+
 const AboutMe = () => {
   return (
     <div className="about-me-area">
@@ -101,7 +104,9 @@ const AboutMe = () => {
                   </div>
                 </div>
               </div>
-              <Skills />
+              <Suspense fallback={<div>Loading Skills..</div>}>
+                <Skills />
+              </Suspense>
               <h2 style={{ textAlign: "center", margin: "20px" }}>
                 Education & Certification
               </h2>
