@@ -10,6 +10,7 @@ const Hero = () => {
         alt="My Picture"
         height="250"
         width="250"
+        fetchPriority="high"
       />
       {/* hero-text */}
       <div id="hero-container-text">
