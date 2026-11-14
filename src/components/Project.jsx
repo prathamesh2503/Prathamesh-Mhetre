@@ -1,6 +1,6 @@
 import comingSoon from "../assets/comingSoon.png";
-import utkarshTuitionV1 from "../assets/utkarshTuitionV1.png";
-import utkarshTuitionV2 from "../assets/utkarshTuitionV2.png";
+import utkarshTuitionWebV1 from "../assets/utkarshTuitionWebV1.webp";
+import utkarshTuitionWebV2 from "../assets/utkarshTuitionWebV2.webp";
 import RedirectToProjectOne from "./RedirectToProjectOne";
 import GithubRepoProjectOne from "./GithubRepoProjectOne";
 import RedirectToProjectTwo from "./RedirectToProjectTwo";
@@ -14,7 +14,7 @@ const Project = () => {
           <div className="col">
             <div className="card h-100">
               <img
-                src={utkarshTuitionV1}
+                src={utkarshTuitionWebV1}
                 className="card-img-top img-fluid w-100 d-block mx-auto p-3"
                 alt="..."
               />
@@ -34,7 +34,7 @@ const Project = () => {
           <div className="col">
             <div className="card h-100">
               <img
-                src={utkarshTuitionV2}
+                src={utkarshTuitionWebV2}
                 className="card-img-top img-fluid w-100 d-block mx-auto p-3"
                 alt="..."
               />
