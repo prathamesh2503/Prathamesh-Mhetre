@@ -1,4 +1,4 @@
-import comingSoon from "../assets/comingSoon.png";
+import comingSoonWeb from "../assets/comingSoonWeb.webp";
 import utkarshTuitionWebV1 from "../assets/utkarshTuitionWebV1.webp";
 import utkarshTuitionWebV2 from "../assets/utkarshTuitionWebV2.webp";
 import RedirectToProjectOne from "./RedirectToProjectOne";
@@ -56,7 +56,7 @@ const Project = () => {
           <div className="col">
             <div className="card h-100">
               <img
-                src={comingSoon}
+                src={comingSoonWeb}
                 className="card-img-top img-fluid w-50 d-block mx-auto p-3"
                 alt="..."
               />
