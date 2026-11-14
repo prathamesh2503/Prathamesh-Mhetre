@@ -1,4 +1,4 @@
-import img1 from "../assets/img1.png";
+import My_Picture_Web from "../assets/My_Picture_Web.webp";
 
 const Hero = () => {
   return (
@@ -22,7 +22,7 @@ const Hero = () => {
 
       {/* hero-image */}
       <div id="hero-container-img">
-        <img src={img1} alt="..." />
+        <img src={My_Picture_Web} alt="My Picture" />
       </div>
     </div>
   );
